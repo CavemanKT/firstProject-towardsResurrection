@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Towards Resurrection</title>
+  <link rel="shortcut icon" href="./img/GhostWillySprite000.png" type="image/x-icon">
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- jquery Library-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- JS -->
+  <script type="module" src="./script/main.js" defer></script>
+
+
+</head>
+<body>
+
+  <div id="data-bar">
+    <ul id="event">
+      <li>Freeze</li>
+
+    </ul>
+    <div id="div-wrapper" hidden>
+      <button id="start-btn" hidden>START</button>
+      <article id="instruction">Use <b>arrow key</b> to move, and <b>mouse</b> to click the box at the left side of the column, it can trigger a event to slow down enemy's moving speed. The goal is to <b>reach the brown bar</b> at the top of the map, which is the gate towards the rare chance of resurrection. </article>
+      <h3 id="#restart-msg" style="display: none;">You are being dragged to hell.</h3>
+      <button id="restart-btn" style="display: none;">RESTART</button>
+    </div>
+    <div id="game-screen" hidden></div>
+  </di>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+Core feature would be game loop
+
+feature: 1. click start, then start the game
+
+2. there are some random targets on the wall , you need to shoot ball to hit them
+(targets' coordinates are random)
+
+3. ball will bounce infinitely,
+
+4. ball's flying speed is normal at the beginning,  ball moving speed is faster when you go to next level
+
+5. earn points whenever you hits targets
+
+6. target on the wall disappears after it gets hit
+
+7. you can get hit by the ball and lose life
+
+8. the points you earn can help you trigger special events which require the consumption of points, such as all balls disappear or slower ball speed or others
+
+=======================================================
+
+1. randomly generated enemy, moving towards you
+
+2. you get hit when they touch you
+
+3. you need to shoot them with weapon
+
+4 whenever you eliminate one, you earn points which are used to upgrade your shooting speed
+
+5. whenever you kill all of them, you get to next level and encounter more enemies,  but level might just increase their movement speed instead of their amounts
+
+6. you move faster than the enemy, and you have upgrade option when you have enough points,  e.g. you can upgrade your speed by pressing s,
+or you can upgrade your attack speed by pressing a...  only 2 options.
+
+
+when enemy gets hit, they slow down for 1s ~ 2s.
+
+if ( !death ) {
+  gameOn
+  if(counterWin)
+} else {
+  lose, gameOver
+}
+
+
+
+I need to figure out how to generate different random position for enemy

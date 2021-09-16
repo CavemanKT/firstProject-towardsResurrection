@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#data-bar {
+  width: 1200px;
+  height: 900px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#event {
+  list-style: none;
+  height: 150px;
+  padding: 0 2%;
+  /* display: flex; */
+  position: relative;
+
+}
+
+li {
+  cursor: pointer;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  background: blanchedalmond;
+  padding: 7px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#div-wrapper {
+  background-color: #345B63;
+  width: 1024px;
+  height: 864px;
+  display: flex;
+  position: relative;
+  right: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#div-wrapper article {
+  background-color: #D4ECDD;
+  align-self: center;
+  position: relative;
+  border-radius: 3px;
+  margin: auto 100px auto 30px;
+  padding: 20px;
+  border-style: none;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#div-wrapper article:first-letter {
+  float: left;
+  font-size: 90px;
+  line-height: 1;
+  font-weight: 600;
+  margin-right: 7px;
+}
+
+#start-btn {
+  margin: auto 30px auto 100px;
+  width: 200px;
+  height: 100px;
+  background-color: #D4ECDD;
+  align-self: center;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  font-weight: 800;
+  align-self: center;
+  position: relative;
+  color: bisque;
+}
+
+#restart-btn {
+  width: 250px;
+  height: 100px;
+  background-color: #D4ECDD;
+  align-self: center;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+#game-screen {
+  width: 1024px;
+  height: 864px;
+  position: relative;
+  background-image: url('../img/spaceBackground.png');
+  background-size: cover;
+}
+
+.get-hit {
+  display: none;
+}
+
+.veil {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  font-family: 'Abril Fatface', cursive;
+}
