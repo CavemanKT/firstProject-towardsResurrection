@@ -167,7 +167,7 @@ $divWrapper.removeAttr('hidden')
 $startBtn.removeAttr('hidden')
 
 const handleStartBtn = () => {
-  $('audio').attr('autoplay')
+  $('audio')[0].play()
   $divWrapper.hide()
   $startBtn.hide()
   $gameScreen.removeAttr('hidden')
